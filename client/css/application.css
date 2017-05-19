@@ -1,0 +1,60 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.metronome {
+  width: 623px;
+  height: 168px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.tempo {
+  color: #000;
+  font-size: 2rem;
+}
+
+.bpm {
+  font-size: 1rem;
+  color: #666;
+}
+
+.toggle {
+  float: right;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 43px;
+  height: 43px;
+}
+
+.toggle:hover {
+  cursor: pointer;
+}
+
+.plus {
+  font-size: 2rem;
+  float: right;
+}
+
+.plus:hover, .minus:hover {
+  cursor: pointer;
+}
+
+.minus {
+  font-size: 2rem;
+  float: left;
+}
+
+.controls {
+  position: relative;
+  width: 100%;
+  margin-top: 90px;
+}
+
+.tempo-range {
+  width: 90%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
